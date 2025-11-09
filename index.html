@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XYZAROOM — Home</title>
+  <style>
+    /* Global */
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:#000;color:#fff;font-family:monospace;min-height:100vh;display:flex;flex-direction:column;}
+    a{color:inherit;text-decoration:none;}
+    /* Navigation */
+    nav{
+      position:fixed;top:20px;left:20px;
+      /* style sesuai tema: kontainer menu */
+    }
+    nav ul{list-style:none;}
+    nav ul li{margin-bottom:12px;}
+    nav ul li a:hover{color:#aaa;}
+    /* Hero Section */
+    .hero{
+      height:90vh;
+      display:flex;align-items:center;justify-content:center;
+      text-align:center;padding:0 20px;
+      /* bisa tambahkan background video atau image */
+    }
+    .hero h1{font-size:3.5rem;font-weight:900;}
+    .hero p{margin-top:20px;font-size:1.2rem;color:#ccc;max-width:700px;}
+    .hero .btn{margin-top:30px;padding:14px 28px;font-size:1rem;font-weight:700;background:#fff;color:#000;border-radius:8px;}
+    /* Content Section */
+    .section{
+      padding:80px 5%;
+    }
+    .section h2{font-size:2.4rem;margin-bottom:24px;}
+    .section p{font-size:1.1rem;color:#ccc;line-height:1.6;}
+    /* Footer */
+    footer{
+      background:#050505;padding:40px 5%;text-align:center;
+      color:#777;font-size:0.9rem;
+    }
+    footer a{color:#888;margin:0 10px;}
+    footer a:hover{color:#fff;}
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">MUSIC</a></li>
+      <li><a href="#">TOUR</a></li>
+      <li><a href="#">SHOP</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div>
+      <h1>XYZAROOM Records</h1>
+      <p>Independent label. Artist platform. Global distribution.</p>
+      <a class="btn" href="#">Get Started</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about">
+    <h2>Tentang Kami</h2>
+    <p>
+      XYZAROOM adalah platform kreatif yang memfasilitasi artis & produser untuk merilis karya secara global, dengan kontrol penuh dan teknologi masa depan.
+    </p>
+  </section>
+
+  <!-- Rilisan / Produk Section -->
+  <section class="section releases">
+    <h2>Rilisan Terbaru</h2>
+    <p>Placeholder untuk list rilisan atau katalog musik.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+    <p>© 2025 XYZAROOM Records</p>
+  </footer>
+
+</body>
+</html>
